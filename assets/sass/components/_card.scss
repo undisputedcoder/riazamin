@@ -1,0 +1,56 @@
+    .container {
+        width: 100%;
+        padding-bottom: 3rem;
+
+        .container-flex{
+            margin: -1rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card-padding {
+            width: 50%;
+            padding: 1rem;
+        }
+        
+        .card {
+            height: 100%;
+            border-width: 2px;
+            border: solid;
+            border-radius: 0.375rem;
+            overflow: hidden;
+            border-color: rgb(229,229,229);
+            padding: 1.5rem;
+        }
+
+        .top-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            img {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+
+            a {
+                font-size: 2.5rem;
+                cursor: pointer;
+            }
+
+            h3 {
+                margin-bottom: 0.75rem;
+            }
+        }
+        
+        .tech {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            p {
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+            }
+        }
+    }

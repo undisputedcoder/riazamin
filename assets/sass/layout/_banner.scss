@@ -14,6 +14,10 @@
 			margin-top: -0.125em;
 		}
 
+		p {
+			font-size: 18px;
+		}
+
 		.content {
 			@include vendor('flex-grow', '1');
 			@include vendor('flex-shrink', '1');
